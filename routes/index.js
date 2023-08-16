@@ -3,7 +3,9 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Dev Skills' });
+  res.render('index', { title: 'Awesome Developer Skills' });
 });
+
+// app.use(express.static(path.join(__dirname, 'public')));
 
 module.exports = router;

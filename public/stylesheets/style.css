@@ -1,8 +1,41 @@
+* {
+  background-image: url('images/colors.png');
+  background-size: cover;
+  background-position: center;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* background-image: 'images/colors.png';
+  background-size: cover;
+  background-position: center; */
 }
 
 a {
-  color: #00B7FF;
+  color: #868686;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vmin;
+  /* text-align: center; */
+}
+
+h1 {
+  /* font-family: 'Luckiest Guy' */
+  /* font-family: 'Luckiest Guy', cursive; */ 
+  /* font-family: 'Odibee Sans' */
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 5vmin;
+  /* text-align: center; */
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vmin;
+  color: rgb(246, 20, 197)
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vmin;
+  color: rgb(246, 20, 197)
 }
