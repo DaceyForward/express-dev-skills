@@ -1,21 +1,23 @@
-* {
+/* * {
   background-image: url('images/colors.png');
   background-size: cover;
   background-position: center;
-}
+} */
 
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  /* background-image: 'images/colors.png';
-  background-size: cover;
-  background-position: center; */
+  background-image: url('../images/colors.png');
+  background-size: stretch;
+  background-position: left;
+  background-repeat: no-repeat; 
 }
 
 a {
-  color: #868686;
+  color: #000000;
   font-family: 'Poppins', sans-serif;
   font-size: 2.5vmin;
+  /* margin-top: 2vmin; */
   /* text-align: center; */
 }
 
@@ -25,17 +27,54 @@ h1 {
   /* font-family: 'Odibee Sans' */
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 5vmin;
-  /* text-align: center; */
+  color: rgb(213, 20, 171);
+  text-align: center;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5vmin;
-  color: rgb(246, 20, 197)
+  font-size: 3vmin;
+  color: black;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5vmin;
+  color: rgb(213, 20, 171);
+  text-align: right;
 }
 
 li {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5vmin;
-  color: rgb(246, 20, 197)
+  color: rgb(213, 20, 171);
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 1vmin;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(255, 230, 248);
+  font-size: 1.3vmin;
+  border: 0.1vmin solid rgb(13, 138, 154);
+  border-radius: 1.5vmin;
+  color: black;
+
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(213, 20, 171);
+  border: 0.1vmin solid rgb(13, 138, 154);
 }
